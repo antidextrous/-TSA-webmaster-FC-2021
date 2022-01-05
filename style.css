@@ -1,0 +1,88 @@
+body {
+  background-color: none;
+}
+p{
+  font-family: Comic Sans MS, fantasy;
+
+}
+h1{
+  font-family: Comic Sans MS, fantasy;
+
+} 
+h2{
+  font-family: Comic Sans MS, fantasy;
+
+}
+h3{
+  font-family: Comic Sans MS, fantasy;
+
+}
+
+.btn btn-primary {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+  left:100px;
+  font-size:30;
+  width:80%;
+  border:solid;
+  border-width:4px;
+  border-color:lightgrey; 
+  border-radius:20px;
+  margin-bottom:20px;
+  
+}
+#lister{
+  list-style-type: none;
+  left:100px;
+  font-size:30;  
+  position:relative;
+  width:80%;
+  top:50px;
+  padding:20px;
+}
+#future{
+  margin: 50px;
+  width:60%;
+}
+
+.future {
+  border:10px solid red;
+  width:60%;
+}
+#exp{
+  font-size:60px;
+  position:relative;
+  left:100px
+}
+#exexp{
+  left:150px;
+  font-size:20;
+  position:relative;
+}
+#ep{
+  font-size:30px;
+  top:100px;
+  position:relative;
+}
+#homebtn{
+  position:fixed;
+  left:0;
+  top:0;
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  cursor:pointer;
+  border:none;
+}
