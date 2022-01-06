@@ -1,16 +1,19 @@
-body {
-  background-color: none;
-}
 p{
-  font-family: Comic Sans MS, fantasy;
-
+   font-family: Comic Sans MS, fantasy;
+  //boys what happened to the comic sans 
 }
 h1{
   font-family: Comic Sans MS, fantasy;
+ font-size: 40px;
+ text-align: center;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
 
 } 
 h2{
-  font-family: Comic Sans MS, fantasy;
+   font-family: Comic Sans MS, fantasy;
+  margin-left: 3%;
 
 }
 h3{
@@ -31,20 +34,33 @@ ul {
   padding: 0;
 }
 li{
+  margin-top:10px;
   list-style-type: none;
-  left:100px;
   font-size:30;
-  width:80%;
+  width:70%;
   border:solid;
   border-width:4px;
-  border-color:lightgrey; 
-  border-radius:20px;
+  border-color:black; 
+  border-radius:10px;
   margin-bottom:20px;
-  
+  padding:10px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+li2{
+  margin-top:10px;
+  list-style-type: none;
+  font-size:30;
+  width:70%;
+  margin-bottom:20px;
+  padding:10px;
+  margin-left:auto;
+  margin-right:auto;
 }
 #lister{
   list-style-type: none;
-  left:100px;
+  left:5%;
   font-size:30;  
   position:relative;
   width:80%;
@@ -52,37 +68,86 @@ li{
   padding:20px;
 }
 #future{
-  margin: 50px;
-  width:60%;
-}
+  margin: 10px;
+  width:100%;
 
+}
 .future {
   border:10px solid red;
-  width:60%;
+  width:100%;
 }
 #exp{
   font-size:60px;
-  position:relative;
-  left:100px
+  position:static;
+  text-align: center;
 }
 #exexp{
   left:150px;
   font-size:20;
   position:relative;
 }
-#ep{
-  font-size:30px;
-  top:100px;
-  position:relative;
-}
 #homebtn{
-  position:fixed;
-  left:0;
-  top:0;
-  background-color: #04AA6D;
+  position: relative;
+  display: inline-block;
+  left:0%;
+  top:0%;
+  background-color: #EE3124;
   color: white;
-  padding: 8px;
+  padding: 5px;
   font-size: 16px;
   cursor:pointer;
   border:none;
+  //float:left;this breaks it
+}
+#hphead{
+  position:relative;
+  
+}
+
+#hpb1{
+  margin: 50px;
+  width:60%;
+}
+
+.heading {
+  margin-top:50px;
+  text-align:center;
+}
+
+.hpb2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:auto;
+}
+
+form {
+	justify-content: center;
+	text-align: center;
+}
+
+details {
+  margin-left: 1%;
+  margin-bottom: 0.5%;
+}
+
+body{
+  background-color: #000128;
+  color: white;
+}
+
+#exp {
+  padding-top: 5px;
+}
+
+.info, .abt {
+  transition: transform 600ms ease;
+}
+
+.info:hover {
+  transform: scale(1.05);
+}
+
+.abt:hover {
+  transform:scale(1.1);
 }
