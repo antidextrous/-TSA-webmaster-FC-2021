@@ -155,7 +155,7 @@ body{
   padding-top: 5px;
 }
 
-.info, .abt {
+.info, .abt, .src {
   transition: transform 600ms ease;
 }
 
@@ -168,13 +168,16 @@ details > summary {
   border: none;
 }
 
-.abt:hover {
+.abt:hover, .src:hover {
   transform:scale(1.1);
 }
-#bug{
-  position:fixed;
-  height:100%;
-  width:100%;
-  //this was not made by sam ummer
-  //this was made by sam ummer
+
+
+table, th, td {
+  border: 2px solid white;
+}
+
+
+table {
+  border-collapse: collapse;
 }
