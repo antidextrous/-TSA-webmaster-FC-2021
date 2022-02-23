@@ -11,19 +11,21 @@
 </head>
 
 <body>
-  <div class="dropdown" style="top: 0px; positon: fixed; z-index: 1000; float:right;">
-	  <button class="dropbtn">Menu</button>
-	  <div class="dropdown-content">
-			<a href="experiences.html">Experiences</a>
-			<a href="about.html">About Us</a>
-      <a href="registration.html">Registration</a>
-			<a href="sources.html">Sources/Work Log</a>
-	  </div>
-	</div>
-  <div id=homebtn >
-  <form action="index.html"id=homebtn >
-    <input type="submit" value="Home"id=homebtn />
-  </form>
+  <!--also, after you get this working, i can revitalise the homepage to include more info and add a fake news tab as well-->
+  <div class="nav" style="position:sticky; top:0; z-index:10000;">
+    
+    <a class="dropbtn" href="index.html">Home</a>
+      <div class="dropdown" style="position:absolute; right:0; float:right; z-index:10000; ">
+        <button class="dropbtn">
+        Menu
+        <div class="dropdown-content">
+          <a href="experiences.html">Experiences</a>
+          <a href="about.html">About Us</a>
+          <a href="registration.html">Registration</a>
+          <a href="sources.html">Sources/Work Log</a>
+        </div>
+      
+    </div>
   </div>
   <h1 id ="exp">What experiences are offered at the event?</h1>
   <div>

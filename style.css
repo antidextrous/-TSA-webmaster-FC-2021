@@ -87,18 +87,33 @@ li2{
   position:relative;
 }
 #homebtn{
-  position: relative;
+  position: sticky;
   display: inline-block;
-  left:0%;
-  top:0%;
+  left:0px;
+  top:0px;
   background-color: #EE3124;
   color: white;
   padding: 5px;
-  font-size: 16px;
   cursor:pointer;
   border:none;
   
 }
+.nav {
+  margin-bottom:50px;
+  background-color:#EE3124;
+  text-decoration: none;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold,
+}
+
+/* Change the color of links on hover */
+
+/* Add a color to the active/current link */
 
 #hphead{
   position:relative;
@@ -183,4 +198,26 @@ table {
 }
 #comnic{
   font-family:Comic Sans MS;
+}
+#middle{
+  height:20px;
+  position: sticky;
+  left:0%;
+  top:0%;
+  
+  background-color: #EE3124;
+  color: white;
+  padding: 30px;
+  font-size: 16px;
+  z-index:0;
+  border:none;
+}
+#right{
+  position: sticky;
+  
+  
+  background-color: #EE3124;
+  color: white;
+  
+  border:none;
 }
