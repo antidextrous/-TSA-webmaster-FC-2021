@@ -1,9 +1,9 @@
 p{
-   font-family: Comic Sans MS, fantasy;
+   font-family: "PT Sans",Comic Sans MS, fantasy;
    
 }
 h1{
-  font-family: Comic Sans MS, fantasy;
+  font-family: "PT Sans",Comic Sans MS, fantasy;
  font-size: 40px;
  text-align: center;
  margin-left: 10px;
@@ -12,12 +12,12 @@ h1{
 
 } 
 h2{
-   font-family: Comic Sans MS, fantasy;
-  margin-left: 3%;
+   font-family: "PT Sans",Comic Sans MS, fantasy;
+ /* margin-left: 3%;*/
 
 }
 h3{
-  font-family: Comic Sans MS, fantasy;
+  font-family: "PT Sans",Comic Sans MS, fantasy;
 
 }
 
@@ -117,7 +117,8 @@ li2{
 
 #hphead{
   position:relative;
-  
+  text-align:left;
+  right:10%;
 }
 
 #hpb1{
@@ -142,17 +143,20 @@ li2{
 
 .heading {
   margin-top:50px;
-  text-align:center;
+  left:1%;
+  text-align:left;
+  position:relative;
 }
 
 #heading {
   margin-top:50px;
-  text-align:center;
+  text-align:left;
+  position:relative;
 }
 .hpb2 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   padding:auto;
 }
 
@@ -162,15 +166,16 @@ details {
 }
 
 body{
-  background-color: #000128;
+  background-color: #005ba8;
   color: white;
+  
 }
 
 #exp {
   padding-top: 5px;
 }
 
-.info, .abt, .src {
+.info, .abt, .src, .news {
   transition: transform 600ms ease;
 }
 
@@ -183,7 +188,7 @@ details > summary {
   border: none;
 }
 
-.abt:hover, .src:hover {
+.abt:hover, .src:hover, .news:hover {
   transform:scale(1.1);
 }
 
@@ -197,7 +202,7 @@ table {
   border-collapse: collapse;
 }
 #comnic{
-  font-family:Comic Sans MS;
+  font-family: Comic Sans MS, fantasy;
 }
 #middle{
   height:20px;
@@ -221,3 +226,36 @@ table {
   
   border:none;
 }
+#faq{
+  left:-100px;
+  text-align:left;
+  align-items:left;
+  position:relative;
+}
+.faq{
+  left:-60px;
+  text-align:left;
+  align-items:left;
+  position:relative;
+  width:90%;
+}
+.news{
+  left:220px;
+  top:-322px;
+  text-align:left;
+  align-items:left;
+  position:relative;
+  width:30%;
+}
+#newsh{
+ left:63%;
+ top:-647px;
+ font-family: "PT Sans",Comic Sans MS, fantasy;
+ font-size: 45px;
+ text-align: left;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+  position:relative;
+}
+
