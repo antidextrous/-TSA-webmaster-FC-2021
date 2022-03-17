@@ -176,7 +176,7 @@ body{
   padding-top: 5px;
 }
 
-.info, .abt, .src, .news {
+.info, .abt, .src, .news, .faqblocks {
   transition: transform 600ms ease;
 }
 
@@ -189,7 +189,7 @@ details > summary {
   border: none;
 }
 
-.abt:hover, .src:hover, .news:hover {
+.abt:hover, .src:hover, .news:hover, .faqblocks:hover {
   transform:scale(1.1);
 }
 
@@ -234,7 +234,7 @@ table {
   position:relative;
 }
 .faq{
-  left:-60px;
+  left:-80px;
   text-align:left;
   align-items:left;
   position:relative;
@@ -242,36 +242,33 @@ table {
 }
 .news{
   text-align:left;
-  align-items:right;
-  width: 35%;
+  align-items:left;
+  right:7%;
+  width: 80%;
   position: relative;
   top: 3px;
-  float: right;
+  
 }
 #newsh{
  position:relative;
- left:3%;
+ 
  z-index:100000000;
  font-family: "PT Sans",Comic Sans MS, fantasy;
  font-size: 90px;
  text-align: left;
- margin-left: 10px;
- margin-right: 10px;
- margin-bottom: 10px;
+ 
 }
-* {
-  box-sizing: border-box;
-}
+
 
 
 .column {
   float: left;
-  width: 50%;
+   width: 50%;
   padding: 10px;
   
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
@@ -279,9 +276,19 @@ table {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .column {
     width: 100%;
     
   }
+}
+* {
+  box-sizing: border-box;
+}
+.faqblocks{
+  width:90%;
+}
+.abt{
+  margin-left:auto;
+  margin-right:auto;
 }
