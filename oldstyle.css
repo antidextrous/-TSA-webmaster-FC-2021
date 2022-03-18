@@ -1,30 +1,31 @@
-p{
+/*it works to move left and right but not up and down 
+it also works when relative*/
+p {
    font-family: "PT Sans",Comic Sans MS, fantasy;
-   
 }
-h1{
+
+h1 {
   font-family: "PT Sans",Comic Sans MS, fantasy;
  font-size: 40px;
  text-align: center;
  margin-left: 10px;
  margin-right: 10px;
  margin-bottom: 10px;
-
 } 
-h2{
+
+h2 {
    font-family: "PT Sans",Comic Sans MS, fantasy;
  /* margin-left: 3%;*/
-
 }
-h3{
-  font-family: "PT Sans",Comic Sans MS, fantasy;
 
+h3 {
+  font-family: "PT Sans",Comic Sans MS, fantasy;
 }
 
 .btn btn-primary {
   width: 100px;
   height: 100px;
-  background: red;
+  background: gray;
   transition: width 2s;
 }
 
@@ -33,22 +34,22 @@ ul {
   margin: 0;
   padding: 0;
 }
-li{
+li {
   margin-top:10px;
   list-style-type: none;
   font-size:30;
-  width:50%;
+  width:70%;
   border:solid;
   border-width:4px;
-  border-color:#f8f8ff; 
+  border-color:black; 
   border-radius:10px;
   margin-bottom:20px;
   padding:10px;
-  margin-left:170px;
+  margin-left:auto;
   margin-right:auto;
 }
 
-li2{
+li2 {
   margin-top:10px;
   list-style-type: none;
   font-size:30;
@@ -58,7 +59,8 @@ li2{
   margin-left:auto;
   margin-right:auto;
 }
-#lister{
+
+#lister {
   list-style-type: none;
   left:5%;
   font-size:30;  
@@ -67,52 +69,56 @@ li2{
   top:50px;
   padding:20px;
 }
+
 #future{
   margin: 10px;
   width:100%;
 
 }
+
 .future {
-  border:10px solid red;
+  border:10px solid gray;
   width:100%;
 }
+
 #exp{
   font-size:60px;
   position:static;
   text-align: center;
 }
-#exexp{
+
+#exexp {
   left:150px;
   font-size:20;
   position:relative;
 }
-#homebtn{
+
+#homebtn {
   position: sticky;
   display: inline-block;
   left:0px;
   top:0px;
-  background-color: #EE3124;
-  color: white;
+  background-color: gray;
+  color: gray;
   padding: 5px;
   cursor:pointer;
   border:none;
-  
 }
+
 .nav {
   margin-bottom:50px;
-  background-color:#EE3124;
+  background-color: gray;
   text-decoration: none;
 }
 
 /* Style the links inside the navigation bar */
 .nav a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold,
 }
 
 /* Change the color of links on hover */
-
 /* Add a color to the active/current link */
 
 #hphead{
@@ -142,8 +148,9 @@ li2{
 }
 
 .heading {
+  margin-left:50px; 
+  margin-right:50px;
   margin-top:50px;
-  left:1%;
   text-align:left;
   position:relative;
 }
@@ -153,6 +160,7 @@ li2{
   text-align:left;
   position:relative;
 }
+
 .hpb2 {
   display: flex;
   justify-content: center;
@@ -165,18 +173,19 @@ details {
   margin-bottom: 0.5%;
 }
 
-body{
-  overflow-x:hidden;
-  background-color: #005ba8;
-  color: white;
-  
+body {
+  overflow-x: hidden;
+
+  background-image:url("background.jpg")
+  /*background-color: #005ba8;*/
+  color: black;
 }
 
 #exp {
   padding-top: 5px;
 }
 
-.info, .abt, .src, .news, .faqblocks {
+.info, .abt, .src, .news {
   transition: transform 600ms ease;
 }
 
@@ -189,106 +198,84 @@ details > summary {
   border: none;
 }
 
-.abt:hover, .src:hover, .news:hover, .faqblocks:hover {
-  transform:scale(1.1);
+.abt:hover, .src:hover, .news:hover {
+  transform:scale(1.01);
 }
-
 
 table, th, td {
-  border: 2px solid white;
+  border: 2px solid black;
 }
-
 
 table {
   border-collapse: collapse;
 }
-#comnic{
+
+#comnic {
   font-family: Comic Sans MS, fantasy;
 }
-#middle{
+
+#middle {
   height:20px;
   position: sticky;
   left:0%;
   top:0%;
-  
-  background-color: #EE3124;
-  color: white;
-  padding: 5%;
+  background-color: gray;
+  color: black;
+  padding: 30px;
   font-size: 16px;
   z-index:0;
   border:none;
 }
-#right{
-  position: sticky;
-  
-  
-  background-color: #EE3124;
-  color: white;
-  
+
+#right {
+  position: sticky;  
+  background-color: gray;
+  color: black;
   border:none;
 }
-#faq{
+
+#faq {
   left:-100px;
   text-align:left;
   align-items:left;
   position:relative;
+  /*deprecated*/
 }
-.faq{
-  left:-80px;
+
+.faq {
+  
   text-align:left;
   align-items:left;
   position:relative;
   width:90%;
+  top:10%
 }
+
 .news{
+  left:0%;
+  top:10%
   text-align:left;
   align-items:left;
-  right:7%;
-  width: 80%;
-  position: relative;
-  top: 3px;
-  
+  position:relative;
+  width:80%;
 }
+
 #newsh{
  position:relative;
- 
+ left:3%;
  z-index:100000000;
  font-family: "PT Sans",Comic Sans MS, fantasy;
  font-size: 90px;
  text-align: left;
- 
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
 }
 
-
-
-.column {
-  float: left;
-   width: 50%;
-  padding: 10px;
-  
-}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-@media screen and (max-width: 700px) {
-  .column {
-    width: 100%;
-    
-  }
-}
-* {
-  box-sizing: border-box;
-}
-.faqblocks{
-  width:90%;
-}
-.abt{
-  margin-left:auto;
-  margin-right:auto;
+#heading2 {
+  top-margin-50px;
+  top:15%;
+  text-align:left;
+  position:relative;
+  left:5%;
 }
