@@ -167,6 +167,7 @@ details {
 
 body{
   overflow-x:hidden;
+  /*background-image:url("background.jpg");*/
   background-color: #005ba8;
   color: white;
   
@@ -176,7 +177,7 @@ body{
   padding-top: 5px;
 }
 
-.info, .abt, .src, .news, .faqblocks {
+.info, .abt, .src, .news, .faqblocks, .news2 {
   transition: transform 600ms ease;
 }
 
@@ -189,7 +190,7 @@ details > summary {
   border: none;
 }
 
-.abt:hover, .src:hover, .news:hover, .faqblocks:hover {
+.abt:hover, .src:hover, .news:hover, .faqblocks:hover, .news2:hover {
   transform:scale(1.1);
 }
 
@@ -291,4 +292,10 @@ table {
 .abt{
   margin-left:auto;
   margin-right:auto;
+}
+.news2{
+  
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
 }
