@@ -1,9 +1,4 @@
-p{
-   font-family: "PT Sans",Comic Sans MS, fantasy;
-   
-}
 h1{
-  font-family: "PT Sans",Comic Sans MS, fantasy;
  font-size: 40px;
  text-align: center;
  margin-left: 10px;
@@ -11,16 +6,6 @@ h1{
  margin-bottom: 10px;
 
 } 
-h2{
-   font-family: "PT Sans",Comic Sans MS, fantasy;
- /* margin-left: 3%;*/
-
-}
-h3{
-  font-family: "PT Sans",Comic Sans MS, fantasy;
-
-}
-
 .btn btn-primary {
   width: 100px;
   height: 100px;
